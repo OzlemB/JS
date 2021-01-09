@@ -1,0 +1,40 @@
+
+/* CSS Document */
+body{
+	background-color: #4E4E4E;
+	color: #FFFFFF;
+}
+#clock{
+	text-align: center;
+	width: 50%;
+	position: absolute;
+	top: 30%;
+	left: 25%; 
+}
+#clock h2{
+	font-family: 'Quicksand', sans-serif;
+	text-transform: uppercase;
+	font-weight: 100;
+	font-size: 40px;
+	margin-right: 20px;
+}
+.clock-container{
+	display: flex;
+	flex-direction: row;
+	justify-content: normal;
+	align-items: center;
+	align-content: center;
+}
+.clock-items{
+	width: 30%;
+	background-color: #fff;
+	color: #000;
+	border-radius: 10px;
+	margin-right: 3%;
+	font-family: 'Orbitron', sans-serif;
+	font-size: 50px;
+}
+#date{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 20px;
+}
