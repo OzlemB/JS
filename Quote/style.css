@@ -1,0 +1,53 @@
+body{
+    background-image: url(backgroung.jpeg);
+    background-size: cover;
+}
+#container{
+    width: 50%;
+    margin-top: 15%;
+    margin-left: 25%;
+    position: absolute;
+}
+#inner-container{
+    background-color: #f0baaf;
+    padding-top: 10px;
+}
+span{
+    font-size: 40px;
+    color: #312c51;
+    font-family: 'Raleway', sans-serif;
+}
+#quote{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 25px;
+    color: #505050;
+    font-family: 'Oxygen', sans-serif;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#author{
+    text-align: right;
+    font-size: 22px;
+    padding-bottom: 13px;
+    padding-right: 15px;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+}
+#change{
+    text-align: center;
+    font-family: 'Oxygen', sans-serif;
+    color: #505050;
+    letter-spacing: 4px;
+    background-color: #f0baaf;
+    border-style: none;
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 10px;
+    margin-left: 275px;
+}
+#change:hover{
+    background-color: #ff9d8a;
+    color: #505050;
+}
